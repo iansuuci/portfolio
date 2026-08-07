@@ -20,15 +20,25 @@
   },
   "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.2",
+    "@parcel/transformer-sass": "^2.16.4",
+    "buffer": "^6.0.3",
     "parcel": "^2.8.2",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.1",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3",
+    "pdfjs-dist": "^4.10.38",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.0"
+  },
+  "allowScripts": {
+    "lmdb@2.8.5": true,
+    "lmdb@2.5.2": true,
+    "@swc/core@1.15.47": true,
+    "msgpackr-extract@3.0.4": true,
+    "@parcel/watcher@2.6.0": true
   }
 }

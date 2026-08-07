@@ -17,12 +17,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <title>Ian's Portfolio</title>
+    <meta
+      name="keywords"
+      content="iansuuci, python, machine learning, web development, tech consulting"
+    />
+    <meta
+      name="description"
+      content="Personal Portfolio for Ian, working in business and technology"
+    />
 
     <link
       rel="stylesheet"
@@ -50,7 +53,7 @@
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+            >Learn more</a
           >
         </p>
       </div>
@@ -77,14 +80,15 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                Hi, my name is Ian! I'm a recent graduate from UC Irvine with 
-                a B.S. in Business Information Management. I am passionate about 
-                blending business and technology, in which I have gained demonstrated 
-                expertise across both fields. 
+                Hi, my name is Ian! I'm a recent graduate from UC Irvine with a
+                B.S. in Business Information Management. I am passionate about
+                blending business and technology, in which I have gained
+                demonstrated expertise across both fields.
               </p>
               <p class="about-wrapper__info-text">
-                Outside of work, I really enjoy music! The widget below shows what I'm currently 
-                listening to on Spotify, so hit me up if you have any recs!
+                Outside of work, I really enjoy music! The widget below shows
+                what I'm currently listening to on Spotify, so hit me up if you
+                have any recs!
               </p>
               <div class="about-wrapper__spotify-embed">
                 <div
@@ -144,7 +148,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -293,8 +296,8 @@
             </h3>
             <ul class="experience-wrapper__list">
               <li>
-                Led product discovery, running 25+ user
-                interviews to shape an accessibility-focused roadmap.
+                Led product discovery, running 25+ user interviews to shape an
+                accessibility-focused roadmap.
               </li>
               <li>
                 Mapped HIPAA-sensitive data touchpoints to guide privacy-safe
@@ -317,10 +320,9 @@
             <ul class="experience-wrapper__list">
               <li>
                 Directed a 30-member consulting club and led the team behind an
-                80+ participant case competition sponsored by EY Parthenon and
-                MLT.
+                80+ participant case competition sponsored by EY Parthenon.
               </li>
-              <li>Built a sponsorship pitch deck that raised $1,000+.</li>
+              <li>Advised on membership growth and retention strategies.</li>
             </ul>
           </div>
 
@@ -349,178 +351,110 @@
     </section>
     <!-- /END Experience Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
+    <!-- **** Papers Section **** -->
+    <section id="papers">
       <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+        <div class="paper-wrapper">
+          <h2 class="section-title dark-blue-text">Papers</h2>
 
-          <!-- Notice: each .row is a project -->
+          <!-- Notice: each .row is a paper -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+              <div class="paper-wrapper__text load-hidden">
+                <span class="paper-wrapper__venue"
+                  >ResponsibleFM @ NeurIPS 2025</span
+                >
+                <h3 class="paper-wrapper__text-title">
+                  Evaluation Awareness Scales Predictably in Open-Weights Large
+                  Language Models
+                </h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the
-                    Twitter standard: no more than 280 characters: complement
-                    the information: the skills learned or reinforced in its
-                    realization and how you faced it, prove to be proactive in
-                    the search for solutions.
+                    Probes 15 open-weight models (0.27B-70B params) across four
+                    model families and finds that their ability to tell
+                    evaluation apart from real deployment follows a clear
+                    power-law with model size, letting researchers forecast this
+                    behavior in future, larger models.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://arxiv.org/abs/2509.13333"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
+                  Read on arXiv
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+              <div class="paper-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://arxiv.org/abs/2509.13333"
+                >
+                  <div class="thumbnail rounded">
+                    <canvas
+                      class="paper-wrapper__canvas"
+                      data-pdf="assets/papers/eval-awareness.pdf"
+                    ></canvas>
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <!-- /END Paper -->
 
-          <!-- Notice: each .row is a project -->
+          <!-- Notice: each .row is a paper -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+              <div class="paper-wrapper__text load-hidden">
+                <span class="paper-wrapper__venue">EACL SRW 2026</span>
+                <h3 class="paper-wrapper__text-title">
+                  Broken Chains: The Cost of Incomplete Reasoning in LLMs
+                </h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer:
-                    such as having commitment, having perseverance and accepting
-                    alternative solutions. Remember that being a portfolio you
-                    are not selling the project, you are selling yourself, it
-                    reflects the resources used: Frameworks, libraries,
-                    platforms, etc.
+                    Shows that cutting reasoning models off mid-chain-of-thought
+                    can hurt them more than giving no reasoning at all, and that
+                    how a model reasons (code vs. natural language) changes how
+                    gracefully it degrades under tight token budgets across four
+                    frontier models.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://arxiv.org/abs/2602.14444"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
+                  Read on arXiv
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+              <div class="paper-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://arxiv.org/abs/2602.14444"
+                >
+                  <div class="thumbnail rounded">
+                    <canvas
+                      class="paper-wrapper__canvas"
+                      data-pdf="assets/papers/broken-chains.pdf"
+                    ></canvas>
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this
-                    description, that will demonstrate communication and/or
-                    leadership skills. Additionally, if you made use of the
-                    mastery of a second language, it will reflect on you
-                    professionalism.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+          <!-- /END Paper -->
         </div>
       </div>
     </section>
-    <!-- /END Projects Section -->
+    <!-- /END Papers Section -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
