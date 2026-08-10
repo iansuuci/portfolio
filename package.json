@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@vercel/speed-insights": "^2.0.0",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3",
     "pdfjs-dist": "^4.10.38",
